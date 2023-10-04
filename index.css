@@ -1,0 +1,408 @@
+body {
+	background-color: black;
+}
+#pagelogo {
+	width: 136px;
+	height: 77px;
+	margin-left: -7px;
+	margin-top: -14px;
+}
+.same1 {
+	margin-left: 780px;
+	margin-top: -75px;
+	width: 150px;
+}
+::placeholder {
+	color: whitesmoke;
+	opacity: 0.3;
+	letter-spacing: 1px;
+}
+.fb {
+	width: 25px;
+	height: 25px;
+	margin-top: 300px;
+	margin-left: 110px;
+}
+.insta {
+	width: 75px;
+	height: 57px;
+	position: absolute;
+	top: 159%;
+	left: 13%;
+}
+.twitter {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 161%;
+	left: 19%;
+}
+.yt {
+	position: absolute;
+	top: 161%;
+	left: 23%;
+	width: 30px;
+	height: 30px;
+}
+header {
+	background-color: black;
+}
+.tanker .play {
+	position: absolute;
+	top: 68%;
+	left: 9%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #FFFFFF;
+	color: black;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: right;
+	float: right;
+	padding: 11px 42px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	background-image: url(images/play.jpg);
+	background-repeat: no-repeat;
+	background-size: 30px 40px;
+}
+.tanker .more-info {
+	position: absolute;
+	top: 68%;
+	left: 22%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #555;
+	color: white;
+	font-size: 17px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: right;
+	float: right;
+	padding: 11px 42px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	background-image: url(images/more-info.jpg);
+	background-repeat: no-repeat;
+	background-size: 34px 40px;
+}
+.rating {
+	color: white;
+	position: absolute;
+	top: 68%;
+	left: 92%;
+	width: 100px;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+.white {
+	width: 3px;
+	height: 30px;
+	border: 1px solid #FFFFFF;
+	background-color: white;
+	position: absolute;
+	top: 67%;
+	left: 90%;
+}
+.grey {
+	width: 120px;
+	height: 31px;
+	border: 1px solid #555;
+	background-color: #555;
+	position: absolute;
+	top: 0%;
+	left: 91%;
+	opacity: 0.4;
+}
+.tanker .head {
+	position: absolute;
+	top: 85%;
+	left: 4%;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.tanker .t1 {
+	position: absolute;
+	top: 88%;
+	left: 4%;
+}
+.tanker .t2 {
+	position: absolute;
+	top: 88%;
+	left: 23%;
+}
+.tanker .t3 {
+	position: absolute;
+	top: 88%;
+	left: 42%;
+}
+.tanker .t4 {
+	position: absolute;
+	top: 88%;
+	left: 61%;
+}
+.tanker .t5 {
+	position: absolute;
+	top: 88%;
+	left: 80%;
+}
+.tanker .t1pic {
+	width: 229px;
+	height: 130px;
+	margin-top: 3px;
+	transition: transform .2s;
+}
+.tanker .t1pic:hover {
+	transform: scale(1.2);
+}
+.tanker .t2pic {
+	width: 230px;
+	height: 130px;
+	margin-top: 110px;
+	transition: transform .2s;
+}
+.tanker .t2pic:hover {
+	transform: scale(1.1);
+}
+.head2 {
+	color: white;
+	margin-top: 50px;
+	margin-left: 40px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.tanker .t6 {
+	position: absolute;
+	top: 99%;
+	left: 4%;
+}
+.tanker .t7 {
+	position: absolute;
+	top: 99%;
+	left: 23%;
+}
+.tanker .t8 {
+	position: absolute;
+	top: 99%;
+	left: 42%;
+}
+.tanker .t9 {
+	position: absolute;
+	top: 99%;
+	left: 61%;
+}
+.tanker .t10 {
+	position: absolute;
+	top: 99%;
+	left: 80%;
+}
+.head3 {
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 170px;
+	margin-left: 40px;
+}
+.tanker .content {
+	color: white;
+	font-family: sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	position: absolute;
+	top: 50%;
+	left: 4%;
+}
+.wallpaper {
+	width: 1250px;
+	height: 560px;
+	margin-top: -23px;
+}
+.search-field{
+	width: 24px;
+	height: 35px;
+	background-color: transparent;
+	border: none;
+	margin-top: -28px;
+	border-color: white;
+	margin-left: 180px;
+	margin-right: -95px;
+	background-image: url(images/Search-icon-dup.jpg);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 25px 25px;
+	float: right;
+	-webkit-transition: width 300ms ease-out;
+	transition: width 300ms ease-out;
+	cursor: pointer;
+	color: white;
+	padding-left: 30px;
+	font-family: sans-serif;
+}
+.pseudo-button {
+	background-color: black;
+	border: none;
+	opacity: 1;
+}
+.search-icon {
+	width: 30px;
+	height: 30px;
+	margin-left: 450px;
+	margin-top: 5px;
+}
+.same {
+	margin-left: 170px;
+	color: white;
+	margin-top: -67px;
+	font-size: 14.5px;
+	font-family: sans-serif;
+	text-decoration: underline;
+	text-decoration-color: black;
+	letter-spacing: 0px;
+	opacity: 1;
+}
+#home {
+	margin-left: 179px;
+	font-weight: bold;
+	width: 30px;
+}
+#tv-shows {
+	margin-left: 235px;
+}
+#movies {
+	margin-left: 320px;
+}
+.children {
+	margin-left: 270px;
+	margin-top: 4px;
+	font-size: 14.5px;
+	font-weight: 200px;
+}
+#children {
+	text-decoration: none;
+	color: whitesmoke;
+	font-family: sans-serif;
+	width: 2px;
+}
+#new {
+	margin-left: 380px;
+}
+#mylist {
+	margin-left: 494px;
+}
+#browse {
+	margin-left: 565px;
+	width: 144px;
+}
+.search-field:focus {
+	border: 2px solid #c3c0ab;
+	cursor: text;
+	outline: 0;
+	width: 250px;
+}
+.noti-logo {
+	margin-left: 1150px;
+	width: 20px;
+	height: 20px;
+	margin-bottom: 20px;
+	margin-top: -50px;
+}
+#noti-logo1 {
+	margin-top: -10px;
+}
+.profile {
+	margin-left: 1179px;
+	width: 45px;
+	height: 45px;
+	margin-top: -150px;
+	margin-bottom: 45px;
+}
+#profile {
+	margin-top: -75px;
+}
+.search-submit { 
+display:none;
+}
+#t1 {
+	margin-top: -30px;
+}
+.down-text {
+	color: #555;
+	margin-left: 130px;
+	font-weight: 550;
+	font-family: sans-serif;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+#t2 {
+	margin-top: 20px;
+}
+#t3 {
+	margin-top: 20px;
+}
+#t4 {
+	margin-left: 370px;
+	margin-top: -140px;
+}
+#t5 {
+	margin-left: 370px;
+	margin-top: -85px;
+}
+#t6 {
+	margin-left: 370px;
+	margin-top: -33px;
+}
+#t7 {
+	margin-left: 620px;
+	margin-top: -140px;
+}
+#t8 {
+	margin-left: 620px;
+	margin-top: -85px;
+}
+#t9 {
+	margin-left: 620px;
+	margin-top: -33px;
+}
+#t10 {
+	margin-left: 900px;
+	margin-top: -140px;
+}
+#t11 {
+	margin-left: 900px;
+	margin-top: -85px;
+}
+#t12 {
+	margin-left: 900px;
+	margin-top: -33px;
+}
+.rect {
+	width: 100px;
+	height: 25px;
+	border: 1px solid #555;
+	margin-left: 130px;
+	margin-top: 30px;
+}
+.last-box {
+	color: #555;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: 550;
+	margin-left: 137px;
+	margin-top: -20px;
+}
+.last-box:hover {
+	color: white;
+}
+#end-card {
+	margin-top: 40px;
+}
